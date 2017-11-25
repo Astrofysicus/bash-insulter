@@ -106,8 +106,7 @@ if function_exists command_not_found_handler; then
         eval "orig_$(declare -f command_not_found_handler)"
     fi
 else
-    orig_command_not_found_handler () {
-        echo "zsh: command not found: $1"
+    orig_command_not_found_handler ()
         return 127
     }
 fi
