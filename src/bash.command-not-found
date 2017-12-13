@@ -89,7 +89,7 @@ print_message () {
     # different values on each iteration.
     RANDOM=$(date +"%N")
     selection=$((${RANDOM}%2))
-    if [[ ${selection} -lt 1 ]]; then
+    if [[ ${selection} ]]; then
         printf "\n  $(tput bold)$(tput setaf 1)$(shuf -n 1 -e "${messages[@]}")$(tput sgr0)\n\n"
     fi
 }
@@ -120,8 +120,7 @@ if function_exists command_not_found_handler; then
         eval "orig_$(declare -f command_not_found_handler)"
     fi
 else
-    orig_command_not_found_handler () {
-        echo "zsh: command not found: $1"
+    orig_command_not_found_handler ()
         return 127
     }
 fi
