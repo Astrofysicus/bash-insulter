@@ -63,6 +63,20 @@ print_message () {
         "Keep trying, someday you'll do something intelligent!"
         "If shit was music, you'd be an orchestra."
         "How many times do I have to flush before you go away?"
+	"You’re about as much use as a condom machine in the Vatican."
+	"To call you stupid would be an insult to stupid people! I’ve known sheep that could outwit you. I’ve worn dresses with higher IQs."
+	"Freaking idiot."
+	"Well, I’ll tell you something that should be of vital interest to you. That you, sir, are a NITWIT!"
+	"You are about one bit short of a byte."
+	"You’re not a complete idiot… some parts are missing."
+	"You’re so dumb you think Max Planck is a board used to build really wide houses."
+	"It gives me a headache just trying to think down to your level."
+	"Sir, I think you have a problem with your brain being missing."
+	"You’re like a trained ape, only without the training."
+	"Go away or I will replace you with a very small shell script."
+	"You’re so dense, light bends around you."
+	"You’re so stupid, you think a thesaurus is a monster from Jurassic Park."
+	
     )
 
     # If CMD_NOT_FOUND_MSGS array is populated use those messages instead of the defaults
